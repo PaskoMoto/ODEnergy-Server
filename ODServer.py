@@ -8,7 +8,6 @@ import datetime
 import base64
 import sys
 import string
-import httplib
 
 s = socket.socket()
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -67,7 +66,6 @@ while True:
 #################### Gestion de la trama recibida ###########################################################
 
 ############ Convertir cada elemento de la trama a formato comun, separado por comas. #######################
-  conn = httplib.HTTPConnection(domain)
 
   if packet_type == "PW":    ########################### tramas de consumo promediado #######################
      PW = open('/media/ODEnergy/PW.csv','a')
