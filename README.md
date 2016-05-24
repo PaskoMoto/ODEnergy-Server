@@ -1,5 +1,5 @@
 # ODEnergy-Server
-Servidor Python para dispositivos ODEnergy con version de protocolo ODENERGY 1.0
+Servidor Python para dispositivos ODEnergy con versión de protocolo ODENERGY 1.0
 
 Las características del proceso son las siguientes:
 
