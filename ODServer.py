@@ -1,4 +1,4 @@
-# (c) PaskoMoto -- 11/05/2016 --
+# Fernando Pascual Sesma -- 11/05/2016 --
 #!/usr/bin/python
 
 import binascii
